@@ -1,0 +1,13 @@
+.container-photo {
+    margin: 4rem 0 4rem 0;
+}
+
+img {
+    height: 14rem;
+    border-radius: 8rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 0.4rem solid #f6e58d
+}
+

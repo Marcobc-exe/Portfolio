@@ -1,0 +1,12 @@
+.getResumen {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #f6e58d;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}

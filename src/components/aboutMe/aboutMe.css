@@ -1,0 +1,13 @@
+.container-about-me {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40rem;
+    /* background-color: salmon; */
+    margin-bottom: 4rem;
+}
+
+.container-about-me > p {
+    /* background-color: pink; */
+    margin-left: 1.5rem;
+}
