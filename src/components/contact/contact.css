@@ -1,0 +1,24 @@
+.container-contact > ul > li {
+    list-style: none;
+    
+}
+
+.container-contact > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-contact > ul > li > a:hover {
+    color: #f6e58d;
+}
+
+.container-contact {
+    /* background-color: pink; */
+    margin-bottom: 10rem;
+}
+
+.linkedin, .github, .gmail {
+    height: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+}

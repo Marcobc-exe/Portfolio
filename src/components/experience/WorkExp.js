@@ -1,11 +1,11 @@
-import ExpGolan from './ExpGolan'
-import ExpGolanIntern from './ExpGolanIntern'
-import './expLaboral.css'
+import ExpGolan from './GolanExp'
+import ExpGolanIntern from './GolanInternExp'
+import './WorkExp.css'
 
 const ExpLaboral = () => {
   return (
     <div className='container-exp-laboral'>
-        <h1># Experiencia Laboral</h1>
+        <h2># Work Experience</h2>
         <ExpGolan />
         <ExpGolanIntern />
     </div>

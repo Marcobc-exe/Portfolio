@@ -4,7 +4,7 @@ import './profilePhoto.css'
 const ProfilePhoto = () => {
   return (
     <div className='container-photo'>
-        <img src={mePhoto} alt="" />
+        <img src={mePhoto} alt="" className='mePhoto' />
     </div>
   )
 }
