@@ -1,0 +1,20 @@
+.container-browser {
+    padding: 1rem 2rem 1rem 2rem;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 2rem;
+    height: 12rem;
+    padding-left: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.container-browser > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container-browser > p > a:hover {
+    color: #f6e58d;
+}

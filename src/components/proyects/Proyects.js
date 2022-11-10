@@ -3,7 +3,7 @@ import gmail from "../../img/gmail.png";
 
 const Proyects = () => {
   return (
-    <div className='container-proyects'>
+    <div className='container-proyects' id='proyects'>
         <h2># Proyects</h2>
 
         <section className='container-flex'>
