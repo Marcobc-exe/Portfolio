@@ -5,7 +5,7 @@ import userList from "../../img/preview-webpage.png"
 const Proyects = () => {
   return (
     <div className='container-proyects' id='proyects'>
-        <h2># Proyects</h2>
+        <h2># Proyectos</h2>
 
         <section className='container-flex'>
 
@@ -14,8 +14,9 @@ const Proyects = () => {
               <img src={datasEmployee} alt="" className="project-imagen" />
             </a>
             <h4>Datas Employee</h4>
-            <p className='description-proyect'>Datas-employee is a Rest API developed using Node.js and Express where different types of queries to can be made to a database such as create, update, get an delete the data of the 3 employees registered in the db.
-
+            <p className='description-proyect'>
+              Una API con Node.js y Express que consulta a una base de dato en MySQL, retornando la información
+              de 3 empleados en formato JSON al front-end.
             </p>
           </section>
 
@@ -24,7 +25,9 @@ const Proyects = () => {
               <img src={userList} alt="" className="project-imagen" />
             </a>
             <h4>User List</h4>
-            <p className='description-proyect'>This is a simple web page where I make use a false api with user datas</p>
+              <p className='description-proyect'>
+              Consumiendo una API free con información de usuarios y retornándolos a una interfazgráfica utilizando HTML, CSS y JavaScript.
+              </p>
           </section>
 
         </section>

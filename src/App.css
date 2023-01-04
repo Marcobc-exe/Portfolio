@@ -10,3 +10,30 @@ body {
   transform: translate(-50%);
   width: 40rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .App  > div {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .App  > div {
+    /* min-width: 20rem; */
+  }
+
+  p, li {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  p, li {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}

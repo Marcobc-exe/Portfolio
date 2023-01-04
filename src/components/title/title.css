@@ -1,10 +1,11 @@
-title-container, .titleOne, .titleTwo {
+.title-container, .titleOne, .titleTwo {
     text-align: center;
     font-size: 3rem;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    margin-top: 2rem;
+.title-container {
+    margin-top: 2.5rem;
+    /* background-color: palevioletred; */
 }

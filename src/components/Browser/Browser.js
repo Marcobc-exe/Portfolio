@@ -5,16 +5,19 @@ const Browser = () => {
   return (
     <section className="container-browser">
         <p>
-            <a href="#about-me"># AboutMe</a>
+            <a href="#about-me"># Sobre mi</a>
         </p>
-        <p>
+        {/* <p>
             <a href="#resume"># Resume</a>
+        </p> */}
+        <p>
+            <a href="#work-exp"># Experiencia laboral</a>
         </p>
         <p>
-            <a href="#work-exp"># Work Experience</a>
+            <a href="#proyects"># Proyectos</a>
         </p>
         <p>
-            <a href="#proyects"># Proyects</a>
+            <a href="#contactame"># Contactame</a>
         </p>
                 
     </section>

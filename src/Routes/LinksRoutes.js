@@ -4,7 +4,7 @@ import Contact from '../components/contact/Contact'
 import ExpLaboral from '../components/experience/WorkExp'
 import ProfilePhoto from '../components/profilePhoto/ProfilePhoto'
 import Proyects from '../components/proyects/Proyects'
-import Resume from '../components/Resume/Resume'
+// import Resume from '../components/Resume/Resume'
 import Title from '../components/title/Title'
 
 const LinksRoutes = () => {
@@ -14,7 +14,7 @@ const LinksRoutes = () => {
         <Title />
         <ProfilePhoto />
         <AboutMe />
-        <Resume />
+        {/* <Resume /> */}
         <ExpLaboral />
         <Proyects />
         <Contact />

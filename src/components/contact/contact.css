@@ -1,6 +1,5 @@
 .container-contact > ul > li {
     list-style: none;
-    
 }
 
 .container-contact > ul > li > a {
@@ -8,17 +7,32 @@
     color: white;
 }
 
-.container-contact > ul > li > a:hover {
+.container-contact > ul > li > a:hover, span:hover {
     color: #f6e58d;
 }
 
 .container-contact {
-    /* background-color: pink; */
     margin-bottom: 10rem;
 }
 
 .linkedin, .github, .gmail {
-    height: 2rem;
+    height: 2.5rem;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 10px;
+}
+
+.box {
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.box > .link {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box {
+    margin-bottom: 10px;
+    padding: 10px 10px;
 }

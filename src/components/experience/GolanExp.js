@@ -2,11 +2,10 @@
 const ExpGolan = () => {
   return (
     <div>
-        <h2>Junior Software Developer | Investments Golan SPA | 2022 - current job</h2>
+        <h2>Golan SPA | Desarrollador Junior | Enero 2022 - Diciembre 2022</h2>
         <ul>
-            <li>I successfully managed to reduce by 90% the execution time in a software updater script consumed by the company's clients.</li>
-            <li>I developed in Java the functionality to export data from a table to an XLSX file through a button by which the user can export the data from a table.</li>
-            <li>Restructuring of files and directories in an Amazon Web Service (AWS) Linux EC2 virtual machine, which is dedicated to their management and storage.</li>
+            <li>Desarrollé una serie de funcionalidades para poder extraer información de paneles de la aplicación en Java y exportarlas a XLSX mediante un botón.</li>
+            <li>Logré reducir un 70% del tiempo de la actualización del software de Golan de 1hr a 18min aprox mediante un script en un servidor Linux EC2 de AWS.</li>
         </ul>
     </div>
   )
